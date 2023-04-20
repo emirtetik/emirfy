@@ -1,0 +1,162 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+@import url('https://fonts.googleapis.com/css?family=Rubik+Mono+One&text=ACEFGHIJMNOPRSTUVXY.%20'); 
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+.sec{
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  background: #80801080;  
+  font-family: 'Indie Flower', cursive;
+}
+
+.container{
+  border: 8px solid black;
+  height: 75%;
+  width: 100%;
+  display: grid;
+  padding: 15px;
+  background: #80801080;
+  background-image: repeating-conic-gradient(#000000d2 30% 10%, transparent 80% 30%);
+}
+
+.tab .nav-tabs{
+    margin: 0;
+    border: none;
+    display: flex;
+}
+
+.tab .nav-tabs li a{
+    text-decoration: none;
+    transition: all 0.3s ease 0s;
+     color: wheat;
+}
+.icon{
+  width: 40px;
+}
+.icon:hover{
+}
+
+// .tab .nav-tabs li.active a:before,
+// .tab .nav-tabs li a:hover:before{
+//     border-radius: 10px;
+//     opacity: 1;
+// }
+.tab .tab-content{
+    font-size: 16px;
+    letter-spacing: 1px;
+    line-height: 25px;
+    padding: 20px;
+}
+.container h1{
+          font-size:  100px;
+          font-family: 'Rubik Mono One', sans-serif;
+}
+.container h2{
+  color: black;
+}
+.container h3{
+  font-size:  60px;
+}
+h3:nth-child(2){
+  color: black;
+}
+.tab-content p{
+  max-width: 500px;
+  position: relative;
+  left: 15rem;
+  top: -150px;
+  font-size: 40px;
+  line-height: 3rem;
+}
+
+@media only screen and (max-width:1280px ) and (min-width:768px) {
+  .tab-content p{
+    max-width: 400px;
+    position: relative;
+    left: 15rem;
+    top: -150px;
+    font-size: 40px;
+    line-height: 3rem;
+  
+  }
+}
+@media (min-width: 479px) and (max-width: 767px) {
+  .tab-content p{
+    max-width: 500px;
+    position: relative;
+    left: 0;
+    top: 0;
+    font-size: 18px;
+    line-height: 1rem;
+  
+  }
+}
+
+@media only screen and (max-width: 479px){
+  .container{
+    height: 100%;
+    
+  }
+  .container h1{
+    font-size:  45px;
+    font-family: 'Rubik Mono One', sans-serif;
+}
+  .tab-content p{
+    max-width: 340px;
+    position: relative;
+    left: 0;
+    top: 0;
+    font-size: 18px;
+    line-height: 1rem;
+  
+  }
+}
+//
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
