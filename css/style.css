@@ -6,22 +6,31 @@
   box-sizing: border-box;
 }
 
+.item a {
+  text-decoration: none;
+  color: rgba(255, 255, 255, 0.507);
+}
+
+.item a:hover {
+  color: white;
+}
+
 .sec {
   height: 100vh;
   display: flex;
   align-items: center;
-  background: rgba(128, 128, 16, 0.5019607843);
+  background: hsl(0, 48%, 94%);
   font-family: "Indie Flower", cursive;
 }
 
 .container {
-  border: 8px solid black;
+  border: 8px solid rgb(39, 20, 20);
   height: 75%;
   width: 100%;
   display: grid;
   padding: 15px;
-  background: rgba(128, 128, 16, 0.5019607843);
-  background-image: repeating-conic-gradient(rgba(0, 0, 0, 0.8235294118) 30% 10%, transparent 80% 30%);
+  background: rgba(230, 61, 9, 0.4431372549);
+  background-image: repeating-conic-gradient(rgba(0, 0, 0, 0.8235294118) 30% 0%, transparent 80% 30%);
 }
 
 .tab .nav-tabs {
@@ -33,7 +42,7 @@
 .tab .nav-tabs li a {
   text-decoration: none;
   transition: all 0.3s ease 0s;
-  color: wheat;
+  color: white;
 }
 
 .icon {
@@ -60,14 +69,14 @@
   font-size: 60px;
 }
 
-h3:nth-child(2) {
-  color: black;
+.item .js {
+  color: rgb(0, 0, 0);
 }
 
 .tab-content p {
   max-width: 500px;
   position: relative;
-  left: 15rem;
+  left: 20rem;
   top: -150px;
   font-size: 40px;
   line-height: 3rem;
@@ -108,5 +117,18 @@ h3:nth-child(2) {
     top: 0;
     font-size: 18px;
     line-height: 1rem;
+  }
+  .item .java {
+    padding-left: 0.3rem;
+    background-color: black;
+    padding-top: 0.5rem;
+    width: 300px;
+    font-size: 45px;
+  }
+  .item .js {
+    color: rgb(255, 255, 255);
+  }
+  .item .js:hover {
+    color: rgb(173, 4, 4);
   }
 }/*# sourceMappingURL=style.css.map */
