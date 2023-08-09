@@ -8,9 +8,8 @@
 
 .item a{
   text-decoration: none;
-  color: rgba(255, 255, 255, 0.507);
 }
-.item a:hover{
+.item a h3:hover{
   color: white;
 }
 .sec{
@@ -24,13 +23,13 @@
 }
 
 .container{
-  border: 8px solid rgb(39, 20, 20);
+  border: 8px solid black;
   height: 75%;
   width: 100%;
   display: grid;
   padding: 15px;
-  background: #e63d0971;
-
+  background: #FF5733;
+  border-radius: 30px;
 
   background-image: repeating-conic-gradient(#000000d2 30% 0%, transparent 80% 30%);
 }
@@ -50,12 +49,6 @@
   width: 40px;
 }
 
-
-// .tab .nav-tabs li.active a:before,
-// .tab .nav-tabs li a:hover:before{
-//     border-radius: 10px;
-//     opacity: 1;
-// }
 .tab .tab-content{
     font-size: 16px;
     letter-spacing: 1px;
@@ -63,7 +56,7 @@
     padding: 20px;
 }
 .container h1{
-          font-size:  100px;
+          font-size:  clamp(3.27rem, 2.75rem + 2.56vw, 4.58rem);
           font-family: 'Rubik Mono One', sans-serif;
 }
 .container h2{
@@ -72,14 +65,11 @@
 .container h3{
   font-size:  60px;
 }
-.item .js{
-  color: rgb(0, 0, 0);
 
-}
 .tab-content p{
   max-width: 500px;
   position: relative;
-  left: 20rem;
+  left: 15rem;
   top: -150px;
   font-size: 40px;
   line-height: 3rem;
@@ -111,10 +101,10 @@
 @media only screen and (max-width: 479px){
   .container{
     height: 100%;
-    
+    border-radius: 0;
   }
   .container h1{
-    font-size:  45px;
+    font-size: clamp(2.72rem, 2.36rem + 1.83vw, 3.66rem);
     font-family: 'Rubik Mono One', sans-serif;
 }
   .tab-content p{
@@ -126,21 +116,11 @@
     line-height: 1rem;
   
   }
-  .item .java{
-    padding-left: 0.3rem;
-    background-color: black;
-    padding-top: 0.5rem;
-    width: 300px;
-    font-size: 45px;
-  }
- .item .js{
-    color: rgb(255, 255, 255);
 
-  }
-  .item .js:hover{
-    color: rgb(173, 4, 4);
-
-  }
+ 
+.container h3{
+  font-size: clamp(2.27rem, 2.01rem + 1.29vw, 2.93rem);
+}
 }
 //
 
